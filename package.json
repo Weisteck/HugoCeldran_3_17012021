@@ -1,0 +1,19 @@
+{
+  "name": "chap_3_dynamiser_une_page_web_avec_des_animations_css",
+  "version": "1.0.0",
+  "description": "projet openclassroom chapitre 3",
+  "main": "index.js",
+  "scripts": {
+    "test": "sass --watch ./sass/main.scss:./public/css/style.css" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Weisteck/HugoCeldran_3_17012021.git"
+  },
+  "author": "Hugo CELDRAN",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Weisteck/HugoCeldran_3_17012021/issues"
+  },
+  "homepage": "https://github.com/Weisteck/HugoCeldran_3_17012021#readme"
+}
