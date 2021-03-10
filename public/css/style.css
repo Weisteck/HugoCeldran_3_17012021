@@ -1,5 +1,38 @@
-h1 {
-  color: blue;
+*, ::before, ::after {
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url(../Roboto/Roboto-Thin.ttf);
+}
+body {
+  font-family: "Roboto";
+}
+
+header {
+  text-align: center;
+  margin: 5%;
+}
+header img {
+  width: 50%;
+}
+
+.topPage {
+  text-align: center;
+  margin: 5%;
+}
+.topPage__book h1 {
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 5%;
+  font-size: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
