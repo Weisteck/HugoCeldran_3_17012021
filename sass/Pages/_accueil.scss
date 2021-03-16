@@ -1,0 +1,9 @@
+.topPage {
+    @include textMarge();
+    &__book {
+         h1 {
+            font-size: 25px;
+            font-weight: bolder;
+         }
+    }
+}
